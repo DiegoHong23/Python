@@ -17,6 +17,5 @@ while (True):
             break
         else: 
             print('invalid')
-
 print(len(names))
 print(names)

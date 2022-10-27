@@ -1,5 +1,5 @@
-animal = input('Please input "Hamster", "Gerbil" or "Snake": ')
-weight = int(input('Please input number of animal weight: '))
+animal = input('Please input "Hamster", "Gerbil" or "Snake":\n')
+weight = int(input('Please input number of animal weight:\n'))
 if (animal == "Hamster") or  (animal == "Gerbil"): 
     if (weight >= 60) and (weight <= 90):
         print("accepted")

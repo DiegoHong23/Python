@@ -14,3 +14,7 @@ print("x is {}, y is {}".format(x,y))
 print("x is {: >8}, y is {:.2f}".format(x,y))
 
 print(f"x is {x: >8}, y is {y:.2f}")
+
+var = input()
+my_int = int(input("Enter integer:"))
+my_float = float(input("Enter integer: "))

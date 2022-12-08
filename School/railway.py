@@ -4,6 +4,9 @@ seats = [80,80,80]
 COST = 25
 total = 0
 
+total_seats = 8 * (80 * 6) 
+total_passengers = 0
+print("total seats", total_seats)
 while True:
     print("train times \t  =", times)
     print("available seats\t =", seats)

@@ -1,8 +1,17 @@
-fruit_list = ["apple", "banana", "cherry"]
+fruit_list = ["orange", "banana","peach", "che", "apple", "banana"]
+# fruit_list = [4, 2, 9, 1]
+# Sort the list, the list will change order
+fruit_list.sort(reverse=True)
 print(fruit_list)
+# Make a new list with sorted
+# new_list = sorted(old_list)
+# print(old_list)
+# print(new_list)
 print(fruit_list[1])
 print(fruit_list[-1])
 print(fruit_list[0:2])
+
+
 
 print(len(fruit_list))
 fruit_list = []
@@ -37,3 +46,10 @@ fruit_list.pop()  # Remove the last element
 fruit_list.pop(1) # Remove fruit_list[1]
 # Em
 fruit_list.clear() #Empties the list       
+# Iterate list by index
+for i in range(len(fruit_list)): #For example:5 
+    print(fruit_list[i])    # i: 0,1,2,3,4
+
+# Iterate list by item 
+for fruit in fruit_list: # Variable: fruit 
+    print(fruit)         # The value is in the variable fruit

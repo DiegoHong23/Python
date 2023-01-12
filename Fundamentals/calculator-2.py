@@ -5,28 +5,26 @@ number_2 = int(input())
 print("which operation?'*.+,-,/'")
 operation = input()
 
-# number_1 and number_2 and operation are global variables 
+def add_function(num_1,num_2):
+    print(num_1 + num_2)
 
-def add_function():
-    x = 10
-    print(number_1 + number_2) 
-def subtract_function():
+def subtract_function(number_1,number_2):
     print(number_1 - number_2)
-def multiply_function():
+
+def multiply_function(number_1,number_2):
     print(number_1 * number_2)
-def divide_function():
+
+def divide_function(number_1,number_2):
     print(number_1 / number_2)
 
 # print(x)    # x is local variable in add_function, x is only valid in add_function scope
 
 if operation == "+":
-    y = 10
-    add_function()
+    add_function(num_1=number_1, num_2=number_2)
 elif operation == "-":
-    subtract_function()
+    subtract_function(number_1,number_2)
 elif operation == "*":
-    multiply_function()
+    multiply_function(number_1,number_2)
 elif operation == "/":
-    divide_function()
+    divide_function(number_1,number_2)
 
-print(y) # y is a local variable within the if statement, y is only valid inside the if statement.

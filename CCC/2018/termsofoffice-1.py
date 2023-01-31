@@ -1,4 +1,3 @@
-
 def range_function():
     start_year = int(input())
     end_year = int(input())
